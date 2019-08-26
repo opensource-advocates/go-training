@@ -1,4 +1,6 @@
-- Let us analyse this wrapper logic
+### Motivation
+In this chapter we shall analyse on a wrapper logic and evaluate this against SOLID principles. At the end of this chapter,
+reader should be able to understand various ways to adhere to SOLID principles while writing wrapper code for a given functionality.
 
 ```go
 // WaitForCacheSync is a wrapper around cache.WaitForCacheSync that
