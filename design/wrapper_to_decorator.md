@@ -36,7 +36,7 @@ func WaitForCacheSync(
   - :no_entry_sign: It has logic that goes beyond log wrapper boundaries
   - :confused: It treats un-successful sync as an error
 
-#### Suggestions
+### Suggestions - 1
 - In this block we try functional approach to manage decorative pieces of logic
 ```go
 // WaitForCacheSyncFn is a typed function that adheres to
